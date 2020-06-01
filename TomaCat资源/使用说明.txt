@@ -1,0 +1,1 @@
+将 atguigu 文件夹放在自己TomCat安装目录：\webapps\ROOT 下；
