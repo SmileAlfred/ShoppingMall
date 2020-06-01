@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+    <!--  android:clipChildren="false" 表示ViewPager滑动国陈种，中间页是否 设置成 较大；默认是 true； -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/act_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clipChildren="false" />
+
+</FrameLayout>
